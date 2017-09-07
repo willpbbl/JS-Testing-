@@ -26,16 +26,16 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Will Betts</h1>
-								<p>Software Engineer</p>
+								<h1>Welcome to PebblePost</h1>
+								<p>Let's test some JS...</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<li><a href="./assets/resume.pdf">Resume</a></li>
+								<li><a href="#intro">Conversion</a></li>
+								<li><a href="#work">Segment 1</a></li>
+								<li><a href="#contact">Segment 2</a></li>
+								<li><a href="./assets/resume.pdf">Segment 3</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -46,11 +46,25 @@
 
 						<!-- Intro -->
 							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/will.jpg" alt="" /></span>
-								<p>I love to learn. When I come across a bug, I don't see it as a roadblock but a learning opportunity. Every error message has made me a better programmer. I embrace the coders workflow as it allows me to become better each day.  I have several projects that I've worked on that you can check out <a href="#work">here.</a>
+								<h2 class="major">Conversion Page</h2>
 
-								</p>
+								<script>
+								window._pp = window._pp || [];
+								_pp.siteId = 1111;
+								_pp.siteUId = 1234;
+								_pp.email = 'wbetts@pebblepost.com';
+								_pp.orderValue = 5;
+								_pp.orderId = '12345';
+								(function() {
+								 var ppjs = document.createElement('script');
+								 ppjs.type = 'text/javascript';
+								 ppjs.async = true;
+								 ppjs.src = ('https:' == document.location.protocol ? 'https:' : 'http:') +
+								 '//cdn.pbbl.co/r/' + _pp.siteId + '.js';
+								 var s = document.getElementsByTagName('script')[0];
+								 s.parentNode.insertBefore(ppjs, s);
+								})();
+</script>
 							</article>
 
 						<!-- Work -->
